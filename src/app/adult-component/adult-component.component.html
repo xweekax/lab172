@@ -1,0 +1,7 @@
+<ng-container *ngIf='thePost'>
+    <div>
+        <h3>{{thePost.title}}</h3><br/>
+        <a href="http://www.reddit.com{{thePost.permalink}}">The Link</a><br/>
+        <img [src]="thePost.thumbnail">
+    </div>
+</ng-container>
